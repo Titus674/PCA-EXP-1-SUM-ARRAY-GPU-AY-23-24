@@ -960,4 +960,6 @@ int main(int argc, char **argv)
 
 
 ## RESULT:
-Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.
+The vector addition kernel was executed on a Tesla T4 GPU with a vector size of 16,777,216. The
+configuration <<< 65536, 256 >>> achieved the optimal execution time of 0.007459 seconds,
+outperforming other block sizes tested.
